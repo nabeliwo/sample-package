@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/nabeliwo/sample-package/compare/v1.1.3...v1.2.0) (2024-03-09)
+
+
+### Features
+
+* update message ([1143f39](https://github.com/nabeliwo/sample-package/commit/1143f393fa7bc2712a6280aa846f09c7c7041ce9))
+
 ### [1.1.3](https://github.com/nabeliwo/sample-package/compare/v1.1.2...v1.1.3) (2024-03-09)
 
 

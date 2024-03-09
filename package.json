@@ -1,13 +1,16 @@
 {
   "name": "@nabeliwo/sample-package",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "this is sample package.",
   "keywords": [],
   "author": "nabeliwo",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "esm/index.js",
-  "files": ["esm", "lib"],
+  "files": [
+    "esm",
+    "lib"
+  ],
   "homepage": "https://github.com/nabeliwo/sample-package#readme",
   "publishConfig": {
     "access": "public",

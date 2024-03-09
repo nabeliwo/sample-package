@@ -5,6 +5,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
+    "types": ["node"],
     "jsx": "react",
     "strict": true,
     "forceConsistentCasingInFileNames": true,

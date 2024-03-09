@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/nabeliwo/sample-package/compare/v1.2.2...v1.3.0) (2024-03-09)
+
+
+### Features
+
+* add formatDate ([25d0764](https://github.com/nabeliwo/sample-package/commit/25d07648f6a7080b86906faa01c615122c61deed))
+
 ### [1.2.2](https://github.com/nabeliwo/sample-package/compare/v1.2.1...v1.2.2) (2024-03-09)
 
 ### [1.2.1](https://github.com/nabeliwo/sample-package/compare/v1.2.0...v1.2.1) (2024-03-09)

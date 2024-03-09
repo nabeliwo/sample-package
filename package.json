@@ -7,6 +7,17 @@
   "license": "MIT",
   "main": "lib/index.js",
   "module": "esm/index.js",
+  "files": ["esm", "lib"],
+  "homepage": "https://github.com/nabeliwo/sample-package#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabeliwo/sample-package.git"
+  },
+  "typings": "lib/index.d.ts",
   "scripts": {
     "build": "run-p build:*",
     "build:lib": "tsc -p tsconfig.json",

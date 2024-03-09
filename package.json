@@ -35,5 +35,8 @@
     "rimraf": "^5.0.5",
     "standard-version": "^9.5.0",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
   }
 }

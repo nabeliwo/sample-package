@@ -1,1 +1,3 @@
-export const print = (message: string) => console.log(message);
+export const print = (message: string) => {
+  console.log("Message: ", message);
+};

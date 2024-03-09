@@ -26,7 +26,9 @@
     "build:lib": "tsc -p tsconfig.json",
     "build:esm": "tsc -p tsconfig.esm.build.json",
     "release": "standard-version -a",
-    "release:dryrun": "standard-version --dry-run"
+    "release:dryrun": "standard-version --dry-run",
+    "clean": "rimraf ./lib ./esm",
+    "prepublishOnly": "run-s clean build"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",

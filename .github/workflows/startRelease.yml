@@ -77,4 +77,14 @@ jobs:
           payload: ${{ github.event.client_payload.say }}
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-
+      - name: Send custom JSON data to Slack workflow
+        id: slack2
+        uses: slackapi/slack-github-action@v1.25.0
+        with:
+          payload: |
+            {
+              "key": "value",
+              "foo": "bar"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

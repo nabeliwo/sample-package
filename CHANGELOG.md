@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/nabeliwo/sample-package/compare/v1.3.1...v1.4.0) (2024-03-11)
+
+
+### Features
+
+* prepare workflow ([7da2889](https://github.com/nabeliwo/sample-package/commit/7da28894c53848ecac6e6f0209d1202ca02011d8))
+
 ### [1.3.1](https://github.com/nabeliwo/sample-package/compare/v1.3.0...v1.3.1) (2024-03-11)
 
 ## [1.3.0](https://github.com/nabeliwo/sample-package/compare/v1.2.2...v1.3.0) (2024-03-09)

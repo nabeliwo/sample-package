@@ -68,4 +68,14 @@ jobs:
           title: 'chore(release): ${{ env.NEW_TAG }}'
           branch: 'merge-release-${{ env.NEW_TAG }}'
           labels: release candidate
-
+      - name: Send message to Slack
+        id: slack2
+        uses: slackapi/slack-github-action@v1.25.0
+        with:
+          payload: |
+            {
+              "text": "npm publish が完了しました。Release Pull Request を手動でマージしたらリリース完了です。"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+  

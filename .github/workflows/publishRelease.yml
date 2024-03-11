@@ -17,7 +17,7 @@ jobs:
         with:
           ref: release-candidate
           fetch-depth: 0
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v3
         with:
           version: 8
       - uses: actions/setup-node@v4
@@ -67,4 +67,5 @@ jobs:
         with:
           title: 'chore(release): ${{ env.NEW_TAG }}'
           branch: 'merge-release-${{ env.NEW_TAG }}'
+          labels: release candidate
 

@@ -69,10 +69,12 @@ jobs:
           content-filepath: ${{ env.RESULT_PATH }}
           labels: ${{ env.ISSUE_LABELS }}
       - name: Send GitHub Action trigger data to Slack workflow
-        if: ${{ github.event.client_payload.slack_webhook_url != null }}
+        if: ${{ github.event.client_payload.channel_id != null }}
         id: slack
         uses: slackapi/slack-github-action@v1.25.0
         with:
-          payload-file-path: ${{ env.RESULT_PATH }}
+          channel-id: ${{ github.event.client_payload.channel_id }}
+          payload: ${{ github.event.client_payload.say }}
         env:
-          SLACK_WEBHOOK_URL: ${{ github.event.client_payload.slack_webhook_url }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+
